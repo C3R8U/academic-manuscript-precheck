@@ -1,0 +1,13 @@
+# Python caches
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+
+# Private manuscripts and generated reports (do not commit)
+*.source.json
+AI_pre_review*.md
+*.docx
+*.pdf
+.env
+.env.*

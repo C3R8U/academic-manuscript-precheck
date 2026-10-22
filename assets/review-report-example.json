@@ -1,0 +1,32 @@
+{
+  "title": "A fictional paper on furniture classification",
+  "source": "fictional-manuscript.md",
+  "language": "zh-CN",
+  "scope": "Original initial manuscript; text and tables available",
+  "summary": "研究问题明确，但实验协议需要进一步说明。",
+  "dimensions": {
+    "contribution": 3,
+    "methods": 2,
+    "evidence": 2,
+    "coherence": 3,
+    "writing": 4
+  },
+  "issues": [
+    {
+      "id": "A1",
+      "severity": "A",
+      "category": "dataset",
+      "block_id": "B0005",
+      "evidence_quote": "The dataset includes 200 samples.",
+      "issue": "缺少数据划分和样本独立性说明。",
+      "impact": "无法判断测试结果是否存在数据泄漏。",
+      "minimal_action": "明确训练、验证和测试的划分比例及产品级隔离规则。"
+    }
+  ],
+  "length_note": "未提供目标期刊要求，不据此判断是否超页。",
+  "priority_actions": [
+    "补齐独立数据划分",
+    "说明评估指标",
+    "检查参考文献"
+  ]
+}
